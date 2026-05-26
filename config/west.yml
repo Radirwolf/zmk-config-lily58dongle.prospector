@@ -1,6 +1,6 @@
 manifest:
   defaults:
-    revision: v0.3
+    revision: main
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
@@ -16,4 +16,4 @@ manifest:
       remote: carrefinho                          # <---
       revision: main                              # <---
   self:
-    path: config
+    path: configS
