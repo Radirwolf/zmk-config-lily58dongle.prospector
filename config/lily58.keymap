@@ -91,11 +91,11 @@
 // |   F7  |  F8 |  F9 |  F10 |  F11 |  F12 |        |  |       |  +   |   -   |   =   |  [   |   ]   |   \   |
 //                     |      |      |      |        |  |       |      |       |       |
             bindings = <
-&trans    &trans &trans &trans  &trans  &trans                       &trans      &trans    &trans    &trans   &trans    &trans
-&kp GRAVE &kp N1 &kp N2 &kp N3  &kp N4  &kp N5                       &kp N6      &kp N7    &kp N8    &kp N9   &kp N0    &trans
-&kp F1    &kp F2 &kp F3 &kp F4  &kp F5  &kp F6                       &trans      &kp LEFT  &kp DOWN  &kp UP   &kp RIGHT &trans
-&kp F7    &kp F8 &kp F9 &kp F10 &kp F11 &kp F12   &trans   &trans    &kp KP_PLUS &kp MINUS &kp EQUAL &kp LBKT &kp RBKT  &kp BSLH
-                        &trans  &trans  &trans    &trans   &trans    &trans      &trans    &trans
+&kp F1  &SPC_ticket  &SID              &CUST              &CML                  &CLOUD                                         &kp C_PLAY_PAUSE   &kp F1           &kp F2          &kp F3      &kp F4     &kp F12
+&trans  &kp AT       &kp HASH          &kp DOLLAR         &kp PERCENT           &kp AMPERSAND                                  &kp LG(X)          &trans           &kp UP_ARROW    &trans      &trans     &kp LC(LS(W))
+&kp LT  &kp SLASH    &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS                          &kp K_MUTE         &kp LEFT         &kp DOWN        &kp UP      &kp RIGHT  &trans
+&kp GT  &kp STAR     &kp PLUS          &kp MINUS          &kp EQUAL             &kp PIPE2              &out OUT_TOG    &tog 1  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_PREVIOUS  &kp C_NEXT  &trans     &trans
+                                       &trans             &trans                &trans                 &trans          &trans  &trans             &trans           &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
